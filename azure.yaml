@@ -8,6 +8,8 @@ services:
         project: ./backend
         host: containerapp
         language: python
+        docker: 
+            remoteBuild: true
         hooks:
           predeploy:
             shell: sh
